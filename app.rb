@@ -14,7 +14,7 @@ get "/reversename/:name" do
   get "/say/:number/:phrase" do
     result = ""
     params[:number].to_i.times do
-    result += params[:phrase] 
+    result += params[:phrase]
     end
   end
 
