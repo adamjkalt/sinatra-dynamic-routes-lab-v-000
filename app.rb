@@ -15,8 +15,7 @@ get "/reversename/:name" do
   end
 
   get "/say/:word1/:word2/:word3/:word4/:word5" do
-    @multiply = params[:num1].to_i * params[:num2].to_i
-    "#{@multiply}"
+    @saywords = params[:num1].to_i * params[:num2].to_i
   end
 
   get "/:operation/:number1/:number2" do
