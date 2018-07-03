@@ -26,6 +26,7 @@ get "/reversename/:name" do
   get "/:operation/:number1/:number2" do
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
+    answer = "unable to perform this operation"
     case params[:operation]
     when "add"
       num1 + num2
@@ -39,4 +40,3 @@ get "/reversename/:name" do
   end
 
 end
-
