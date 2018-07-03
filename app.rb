@@ -35,7 +35,7 @@ get "/reversename/:name" do
     when "multiply"
       answer = (num1 * num2).to_s
     when "divide"
-      num1 / num2
+      answer = (num1 / num2).to_s
     end
   end
 
