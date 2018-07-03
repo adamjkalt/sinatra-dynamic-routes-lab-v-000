@@ -10,10 +10,8 @@ get "/reversename/:name" do
     @squarenumber = params[:name]
   end
 
-  # Code your final two routes here:
   get "/say/:number/:phrase" do
-    @user_name = params[:name]
-    "Goodbye, #{@user_name}."
+    @phrase = params[:name]
   end
 
   get "/say/:word1/:word2/:word3/:word4/:word5" do
