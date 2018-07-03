@@ -35,6 +35,8 @@ get "/reversename/:name" do
       num1 * num2
     when "divide"
       num1 / num2
+    end
   end
 
 end
+
